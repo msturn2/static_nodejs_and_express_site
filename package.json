@@ -1,0 +1,18 @@
+{
+  "name": "static_nodejs_and_express_site",
+  "version": "1.0.0",
+  "description": "An Express built app to display my projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+
+  },
+  "keywords": [],
+  "author": "Matthew S. Turner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

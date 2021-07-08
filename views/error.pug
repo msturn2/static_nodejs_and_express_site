@@ -1,0 +1,21 @@
+extends layout
+
+block content 
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper
+      .about-intro-box
+        .box
+
+          h1 #{err.message} (#{err.status})
+          p Please check back later
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

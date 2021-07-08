@@ -1,0 +1,81 @@
+{ 
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Displays random quotes",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://msturn2.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/msturn2/techdegree-project-1",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-01_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-01_landscape.jpg"
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Displays student info and includes search by name",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://msturn2.github.io/FSJS-Techdegree-Project-2/",
+            "github_link": "https://github.com/msturn2/FSJS-Techdegree-Project-2",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-02_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-02_landscape1.jpg",
+                    "../static/images/projectLandscapes/Unit-02_landscape2.jpg",
+                    "../static/images/projectLandscapes/Unit-02_landscape3.jpg"
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Form allows users to register for a hypothetical JS conference",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://msturn2.github.io/FSJS-Teschdegree-Project-3-Interactive-Form/",
+            "github_link": "https://github.com/msturn2/FSJS-Teschdegree-Project-3-Interactive-Form",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-03_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-03_landscape1.jpg",
+                    "../static/images/projectLandscapes/Unit-03_landscape2.jpg",
+                    "../static/images/projectLandscapes/Unit-03_landscape3.jpg"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "OOP word guessing game",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://msturn2.github.io/FSJS-Techdegree-Project-4-OOP-Game-Show-App/",
+            "github_link": "https://github.com/msturn2/FSJS-Techdegree-Project-4-OOP-Game-Show-App",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-04_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-04_landscape1.jpg",
+                    "../static/images/projectLandscapes/Unit-04_landscape2.jpg",
+                    "../static/images/projectLandscapes/Unit-04_landscape3.jpg"
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Displays random employees' info with modal window scrolling and search by name",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://msturn2.github.io/Public_API_Requests/",
+            "github_link": "https://github.com/msturn2/Public_API_Requests",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-05_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-05_landscape1.jpg",
+                    "../static/images/projectLandscapes/Unit-05_landscape2.jpg"
+                ]
+            }
+        }
+    ]
+}

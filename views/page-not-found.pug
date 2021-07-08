@@ -1,0 +1,20 @@
+extends layout
+
+block content 
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper
+      .about-intro-box.box
+        .box-shadow.err-msg
+
+          h1 #{err.message} (#{err.status})
+          p It appears the page you're looking for doesn't exist.
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

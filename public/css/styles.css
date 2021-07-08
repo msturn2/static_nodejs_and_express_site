@@ -31,8 +31,9 @@ article {
   background: #fefefe;
 }
 
+/* Changed "Merriweather" to "Chaparral" */
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Chaparral', serif;
 }
 
 h5{
@@ -262,6 +263,18 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+/* Added a grow effect to index.pug thumbnails */
+.grow img {
+  transition: 1s ease;
+}
+  
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
 
 /* 
   About and project pages styles 
@@ -300,6 +313,27 @@ nav a span {
   border: 1px solid transparent;
 }
 
+/* Added background-color on hover of buttons */
+.btn-link:hover {
+  background-color: lightseagreen;
+}
+
+/* Added grayscale and transitional color change grow 
+effect on hover of landscape images on projects[id]
+route */
+.color img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+  
+.color img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
 
 /* 
   Tablet layout styles 

@@ -1,3 +1,6 @@
+# anywhere in .gitignore
+node_modules
+
 # Logs
 logs
 *.log
