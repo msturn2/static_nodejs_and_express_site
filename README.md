@@ -14,7 +14,18 @@ A portfolio app that displays my Treehouse Projects.  Using Express and Node.js,
   - Added background-color change of buttons on hover
   - Added transition from grayscale to color on project landscape images on hover
 
-## Languages
+------
+
+## Using This Application
+
+- This app uses node.js. If you do not already have node.js installed, visit https://nodejs.org/en/download/ and install.
+- After installing node, navigate to the root directory of the cloned repo and in the Command Prompt, Terminal or equivalent app.
+  - Type in `npm install`, then
+  - To run the application, `npm start`.
+
+------
+
+## Languages and Frameworks
 
 - #### [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
