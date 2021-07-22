@@ -76,6 +76,22 @@
                     "../static/images/projectLandscapes/Unit-05_landscape2.jpg"
                 ]
             }
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "A React built app that fetches images from Flickr",
+            "technologies": ["HTML", "CSS", "JavaScript", "React", "JSX"],
+            "live_link": "https://epic-hermann-57c561.netlify.app/",
+            "github_link": "https://github.com/msturn2/reactGalleryApp",
+            "images": {
+                "thumbnail": "../static/images/thumbnail/Unit-07_landing.jpg",
+                "image_urls": [
+                    "../static/images/projectLandscapes/Unit-07_landscape1.jpg",
+                    "../static/images/projectLandscapes/Unit-07_landscape2.jpg",
+                    "../static/images/projectLandscapes/Unit-07_landscape3.jpg"
+                ]
+            }
         }
     ]
 }
